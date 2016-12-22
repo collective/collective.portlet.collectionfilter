@@ -9,7 +9,7 @@
   <i18n:registerTranslations directory="locales" />
 
   <browser:resourceDirectory
-      name="collective.collectionfilter"
+      name="collective.portlet.collectionfilter"
       directory="static"
       />
 
