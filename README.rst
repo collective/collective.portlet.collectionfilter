@@ -1,6 +1,10 @@
 collective.portlet.collectionfilter
 ===================================
 
+.. note::
+    This package won't be updated for Plone 5.
+    Instead use the successor of this package: https://github.com/collective/collective.portlet.collectionfilter
+
 Faceted navigation filter for collection results.
 
 This portlet allows you to filter collections results for additional catalog
