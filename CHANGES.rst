@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.5 (unreleased)
+1.5 (2019-06-27)
 ----------------
 
 - Don't break, if no collection is available.
