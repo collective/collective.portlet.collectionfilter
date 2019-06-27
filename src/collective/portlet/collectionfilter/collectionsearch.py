@@ -77,7 +77,7 @@ class Renderer(CollectionRenderer):
 
     @property
     def available(self):
-        return True
+        return bool(self.action_url)
 
     @property
     def header_title(self):
@@ -91,7 +91,12 @@ class Renderer(CollectionRenderer):
 
     @property
     def action_url(self):
-        return self.collection.getURL()
+        url = None
+        try:
+            url = self.collection.getURL()
+        except AttributeError:
+            pass
+        return url
 
     @property
     def urlquery(self):

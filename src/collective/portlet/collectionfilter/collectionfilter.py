@@ -196,7 +196,7 @@ class Renderer(base.Renderer):
 
     @property
     def available(self):
-        return True
+        return bool(self.collection)
 
     def header_title(self):
         if self.data.header:

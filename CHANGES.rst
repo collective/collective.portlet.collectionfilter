@@ -4,6 +4,9 @@ Changelog
 1.5 (unreleased)
 ----------------
 
+- Don't break, if no collection is available.
+  [thet]
+
 - Update AJAX selectors to content-core and default value for caching
   [agitator]
 
