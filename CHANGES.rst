@@ -4,6 +4,10 @@ Changelog
 2.0.0 (unreleased)
 ----------------
 
+- Rename bundle to collective.portlet.collectionfilter to avoid naming conflict while upgrading to collective.collectionfilter
+  [agitator]
+
+
 - removed EMPTY indexer
   [agitator]
 
