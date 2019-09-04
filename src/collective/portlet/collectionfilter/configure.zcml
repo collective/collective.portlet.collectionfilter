@@ -8,6 +8,8 @@
 
   <i18n:registerTranslations directory="locales" />
 
+  <include file="upgrades.zcml" />
+
   <browser:resourceDirectory
       name="collective.portlet.collectionfilter"
       directory="static"
